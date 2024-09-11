@@ -1,1 +1,1 @@
-Não finalizado
+Feito mais ou menos

@@ -81,5 +81,15 @@ export function usePerguntaDatabase()
             throw error;
         }
     }
-    return { create, update, remove, show,searchByPergunta } 
+    async function getRandomPergunta(): Promise<Pergunta | null> {
+        const query = "SELECT * FROM perguntas ORDER BY RANDOM() LIMIT 1";
+        try {
+            const result = await database.prepareAsync<Pergunta>(query);
+            return result || null;
+        } catch (error) {
+            console.error("Erro ao buscar pergunta aleatória:", error);
+            throw error;
+        }
+    }
+    return { create, update, remove, show,searchByPergunta ,getRandomPergunta} 
 }

@@ -105,13 +105,13 @@ const styles = StyleSheet.create({
         padding: 32,
         paddingTop:50,
         gap: 16,
-        backgroundColor: '#F5F5F5',  // Cor de fundo clara para uma aparência mais suave
+        backgroundColor: '#F5F5F5',
     },
     input: {
-        backgroundColor: '#FFFFFF', // Fundo branco nos campos de input para contraste
-        borderRadius: 8, // Borda arredondada para os inputs
+        backgroundColor: '#FFFFFF', 
+        borderRadius: 8,
         padding: 12,
-        borderColor: '#DDDDDD', // Borda levemente acinzentada
+        borderColor: '#DDDDDD',
         borderWidth: 1,
     },
     listContent: {

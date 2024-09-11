@@ -8,10 +8,10 @@ export default function Index(){
             <TouchableOpacity style={styles.button} onPress={() => router.navigate("/perguntas")}>
                 <Text style={styles.buttonText}>Acessar cadastro de perguntas</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button} onPress={() => {}}>
+            <TouchableOpacity style={styles.button} onPress={() => router.navigate("/resposta")}>
                 <Text style={styles.buttonText}>Acessar cadastro de respostas</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button} onPress={() => {}}>
+            <TouchableOpacity style={styles.button} onPress={() => router.navigate("/jogo")}>
                 <Text style={styles.buttonText}>Jogar</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button} onPress={() => {}}>
